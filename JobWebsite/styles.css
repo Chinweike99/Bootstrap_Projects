@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.menu-bar{
+    background-color: rgb(65, 61, 61);
+}
+.nav-link{
+    font-size: 16px;
+    color: #fff !important;
+}
+.container-fluid .navbar-brand{
+    color: #fff;
+}
+nav{
+    background-image: linear-gradient(145deg, #5255fa, #a9dfb0 65%);
+}
+.navbar-nav{
+    text-align: right;
+}
+.menu-bar .navbar-toggler{
+    padding-right: 0;
+}
+.banner{
+    height: 80vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/backrnd1.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+
+}
+.banner h1{
+    padding-top: 170px;
+    font-family: cursive;
+    font-size: 50px;
+    letter-spacing: 6px;
+    font-weight: 600;
+    text-shadow: 0 0 30px rgba(0, 20, 255, 0.5);
+}
+.banner p{
+    font-size: 28px;
+}
+.search-job{
+    padding: 30px 0;
+    margin: -50px 6% 50px;
+    background-image: linear-gradient(145deg, #5255fa, #a9dfb0 65%);
+}
+.search-job .form-control{
+    max-width: 250px;
+    display: inline-flex;
+    margin: 5px;
+    border-radius: 0;
+    box-shadow: none !important;
+    border: none;
+    outline: 0;
+}
+
+.search-job .btn-primary{
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+    display: inline-flex;
+    margin: 5px;
+    padding: 5px 20px;
+}
