@@ -58,7 +58,7 @@ nav{
 }
 
 .search-job .btn-primary{
-    border-radius: 0;
+    border-radius: 10;
     box-shadow: none;
     border: none;
     display: inline-flex;
